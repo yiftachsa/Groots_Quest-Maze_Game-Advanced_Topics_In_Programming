@@ -1,0 +1,73 @@
+
+@font-face
+{
+    src: url("/Font/Guardians.ttf");
+}
+
+
+
+.button {
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-family: "Guardians";
+    -fx-font-weight: bold;
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-font-size: 12px;
+
+}
+/*
+Button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+*/
+
+.menu{
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-family: "Guardians";
+    -fx-font-weight: bold;
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-font-size: 12px;
+}
+
+
+.context-menu{
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-family: "Guardians";
+    -fx-font-weight: bold;
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-font-size: 12px;
+}
+
+#pane {
+    -fx-background-image: url("/Images/background.jpg");
+    -fx-background-size: cover;
+}
+
+.label{
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-family: "Guardians";
+    
+}

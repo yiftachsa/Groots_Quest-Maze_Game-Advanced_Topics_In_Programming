@@ -23,7 +23,7 @@ The implemented appplication generates a maze according to a user’s settings. 
 
 The project included 3 phases of programing:
 
-### First Phase – Generation of the maze [Repo link](https://github.com/yiftachsa/PartA)
+### First Phase – Generation of the maze [Repo link](https://github.com/yiftachsa/Groots_Quest-Maze_Game-Advanced_Topics_In_Programming-Parts_A-B)
 The maze is generated using a randomized variation of the Prim algorithm.
 
 For the computation of the solution of the maze the following algorithms were implemented to solve it:
@@ -34,7 +34,7 @@ For the computation of the solution of the maze the following algorithms were im
 </ul>
  
 
-### Second Phase – Threads and Streams [Repo link](https://github.com/yiftachsa/PartA)
+### Second Phase – Threads and Streams [Repo link](https://github.com/yiftachsa/Groots_Quest-Maze_Game-Advanced_Topics_In_Programming-Parts_A-B)
 The project includes a server with two seperate functions:
 <ol>
   <li>Generate a maze according to the user’s settings - the client sends all the relevant parameters, the server generates the maze and sends it back to the client as an object.</li> 

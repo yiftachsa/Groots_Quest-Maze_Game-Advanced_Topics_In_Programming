@@ -46,7 +46,7 @@ The server supportes caching; if the server has to solve a maze which has alread
 The client-server architecture includes a thread-pool mechanism. The server can support multiple clients in parralel.  
 To set the optimal settings (number of threads, best algorithm to solve the maze, etc..) we defined a static class called Configurations.
 
-### Third Phase – Desktop application by MVVM architecture, GUI
+### Third Phase – Desktop application using MVVM architecture, GUI
 
 <ul>
   <li>The <b>Model</b> layer is responsible for the business logic (<b>The server side</b>).</li> 

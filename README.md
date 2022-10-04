@@ -23,7 +23,7 @@ The implemented appplication generates a maze according to a user’s settings. 
 
 The project included 3 phases of programing:
 
-### First Phase – Generation of the maze
+### First Phase – Generation of the maze [Repo link](https://github.com/yiftachsa/PartA)
 The maze is generated using a randomized variation of the Prim algorithm.
 
 For the computation of the solution of the maze the following algorithms were implemented to solve it:
@@ -34,7 +34,7 @@ For the computation of the solution of the maze the following algorithms were im
 </ul>
  
 
-### Second Phase – Threads and Streams
+### Second Phase – Threads and Streams [Repo link](https://github.com/yiftachsa/PartA)
 The project includes a server with two seperate functions:
 <ol>
   <li>Generate a maze according to the user’s settings - the client sends all the relevant parameters, the server generates the maze and sends it back to the client as an object.</li> 
@@ -49,9 +49,9 @@ To set the optimal settings (number of threads, best algorithm to solve the maze
 ### Third Phase – Desktop application by MVVM architecture, GUI
 
 <ul>
-  <li>The **Model** layer is responsible for the business logic (**The server side**).</li> 
-  <li>The **ViewModel** layer is responsible for the presentation logic and to mediate between the two other layers.</li> 
-  <li>The **View** layer is responsible for the FXML and the UI logic (**The client side**).</li>
+  <li>The <b>Model</b> layer is responsible for the business logic (<b>The server side</b>).</li> 
+  <li>The <b>ViewModel</b> layer is responsible for the presentation logic and to mediate between the two other layers.</li> 
+  <li>The <b>View</b> layer is responsible for the FXML and the UI logic (<b>The client side</b>).</li>
 </ul>
 
 Using the GUI the user can create a new maze, save the current state of the game, and load an existing game.
